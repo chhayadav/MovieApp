@@ -1,0 +1,21 @@
+// style.scss
+
+.pageNotfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--black3);
+
+  .contentWrapper {
+    text-align: center;
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.5em;
+      color: #555;
+    }
+  }
+}
